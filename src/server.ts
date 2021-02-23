@@ -1,5 +1,7 @@
 
 import express from 'express';
+import './shared/typeorm';
+import 'reflect-metadata';
 const app = express();
 
 app.get("/",(request,response) => {

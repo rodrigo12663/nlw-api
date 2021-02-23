@@ -16,4 +16,6 @@ export default class User{
 
     @UpdateDateColumn()
     update_at:Date;
+
+
 }

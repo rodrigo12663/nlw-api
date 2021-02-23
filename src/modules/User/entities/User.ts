@@ -12,8 +12,8 @@ export default class User{
     email:string;
 
     @CreateDateColumn()
-    created_at:string;
+    created_at:Date;
 
     @UpdateDateColumn()
-    update_at:string;
+    update_at:Date;
 }

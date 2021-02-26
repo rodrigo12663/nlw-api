@@ -11,8 +11,6 @@ export default class SurveyController{
         return res.status(201).json(survey);
     }
     async show (req: Request,res:Response){
-      
-
         const  surveyServices = new ListSurveyServices();
         const  surveys= await  surveyServices.execute();
         return res.status(201).json(surveys);
